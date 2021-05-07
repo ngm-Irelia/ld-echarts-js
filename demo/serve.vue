@@ -165,11 +165,11 @@ export default {
       let vArr = []
       for (let i = 0; i < num; i++) {
         vArr.push({
-          name: i,
+          name: "name"+i,
           value: Math.floor(Math.random() * 100 + 1),
         })
       }
-      
+
       this.addPieChart('', document.getElementById('piechartbox'), [{
           name: '',
           type: 'pie',

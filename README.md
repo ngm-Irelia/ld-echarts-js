@@ -7,6 +7,7 @@ Add package to your project
 
 ```bash
 npm install ld-echarts-js --save
+yarn install ld-echarts-js --save
 ```
 
 Add LdEchartsJS component to your project
